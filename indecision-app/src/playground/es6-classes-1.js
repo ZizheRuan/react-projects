@@ -48,23 +48,10 @@ class Traveller extends Person {
 
 }
 
-
-// const me = new Student('Andrew Mead','26','Computer Science');
-// console.log(me);
-// console.log(me.getDescription());
-// console.log(me.hasMajor());
-
-// const other = new Student();
-// console.log(other);
-// console.log(other.getDescription());
-// console.log(other.hasMajor());
-
 const me = new Traveller('Andrew Mead','26','Philadelphia');
 console.log(me);
 console.log(me.getGreeting());
-// console.log(me.hasHomeLocation());
 
 const other = new Traveller();
 console.log(other);
 console.log(other.getGreeting());
-// console.log(other.hasHomeLocation());
