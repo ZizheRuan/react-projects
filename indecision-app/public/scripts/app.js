@@ -20,12 +20,16 @@ var IndecisionApp = function (_React$Component) {
     _createClass(IndecisionApp, [{
         key: 'render',
         value: function render() {
+            var title = 'Indecision';
+            var subtitle = 'Put your life in the hands of a computer';
+            var options = ['Thing one', 'Thing two', 'Thing four'];
+
             return React.createElement(
                 'div',
                 null,
-                React.createElement(Header, null),
+                React.createElement(Header, { title: title, subtitle: subtitle }),
                 React.createElement(Action, null),
-                React.createElement(Options, null),
+                React.createElement(Options, { options: options }),
                 React.createElement(AddOption, null)
             );
         }
@@ -45,8 +49,6 @@ var Header = function (_React$Component2) {
 
     _createClass(Header, [{
         key: 'render',
-
-        //In React, a render must be included in a class declaration.
         value: function render() {
             return React.createElement(
                 'div',
@@ -54,12 +56,12 @@ var Header = function (_React$Component2) {
                 React.createElement(
                     'h1',
                     null,
-                    'Indecision'
+                    this.props.title
                 ),
                 React.createElement(
                     'h2',
                     null,
-                    'Put your life in the hands of a computer'
+                    this.props.subtitle
                 )
             );
         }
@@ -78,15 +80,22 @@ var Action = function (_React$Component3) {
     }
 
     _createClass(Action, [{
+        key: 'handlePick',
+        value: function handlePick() {
+            alert('handlePick');
+        }
+    }, {
         key: 'render',
         value: function render() {
-            return React.createElement(
-                'div',
-                null,
+            return (//just reference to handlePick, not call it, so don't use {this.handlePick()}
                 React.createElement(
-                    'button',
+                    'div',
                     null,
-                    'What should I do?'
+                    React.createElement(
+                        'button',
+                        { onClick: this.handlePick },
+                        'What should I do?'
+                    )
                 )
             );
         }
@@ -105,12 +114,25 @@ var Options = function (_React$Component4) {
     }
 
     _createClass(Options, [{
+        key: 'handleRemove',
+        value: function handleRemove() {
+            alert('handleRemove');
+        }
+    }, {
         key: 'render',
         value: function render() {
             return React.createElement(
                 'div',
                 null,
-                'contains many options here.',
+                React.createElement(
+                    'button',
+                    { onClick: this.handleRemove },
+                    'Remove All'
+                ),
+                //optionText is to pass the option name to its child class "Option"
+                this.props.options.map(function (option) {
+                    return React.createElement(Option, { key: option, optionText: option });
+                }),
                 React.createElement(Option, null)
             );
         }
@@ -134,11 +156,7 @@ var Option = function (_React$Component5) {
             return React.createElement(
                 'div',
                 null,
-                React.createElement(
-                    'button',
-                    null,
-                    'Options'
-                )
+                this.props.optionText
             );
         }
     }]);
@@ -156,15 +174,32 @@ var AddOption = function (_React$Component6) {
     }
 
     _createClass(AddOption, [{
+        key: 'handleAddOption',
+
+        //function that handling submitted form need an attribute, to handle the attribute.
+        value: function handleAddOption(e) {
+            e.preventDefault();
+            //trim: remove all spaces before and after the value
+            var option = e.target.elements.option.value.trim();
+            if (option) {
+                alert(option);
+            }
+        }
+    }, {
         key: 'render',
         value: function render() {
             return React.createElement(
                 'div',
                 null,
                 React.createElement(
-                    'button',
-                    null,
-                    'AddOption'
+                    'form',
+                    { onSubmit: this.handleAddOption },
+                    React.createElement('input', { type: 'text', name: 'option' }),
+                    React.createElement(
+                        'button',
+                        null,
+                        'Add Option'
+                    )
                 )
             );
         }
@@ -172,14 +207,5 @@ var AddOption = function (_React$Component6) {
 
     return AddOption;
 }(React.Component);
-
-// const jsx = (// in tradition, leave a space.
-//     <div>
-//         <Header /> 
-//         <Action />
-//         <Options />
-//         <AddOption />
-//     </div>
-// );
 
 ReactDOM.render(React.createElement(IndecisionApp, null), document.getElementById('app'));
