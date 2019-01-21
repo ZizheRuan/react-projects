@@ -35,23 +35,36 @@
 
 //define constructor for two reasons: bind methods & set up default state
 class VisibilityToggle extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props);
-        //binding
+        this.handleClick = this.handleClick.bind(this);
         this.state = {
-            state: false
+          visibility: false
         };
-    }
+      }
 
     render(){
         return(
             <div>
                 <h1>Visibility</h1>
-                <button onClick = {this.handleShowMore}>Show More</button>
-                <button onClick = {this.handleShowLess}>Show Less</button>
-                <p>{this.details}</p>
+                <button onClick = {this.handleClick}>
+                    {this.state.visibility? 'Show less' : 'show more'}
+                </button>
+                {(this.state.visibility)&&
+                    (<div>
+                    <p>details</p>
+                    </div>
+                )}
             </div>
         )
+    }
+
+    handleClick (){
+        this.setState((prevState) => {
+            return {//Note!!!: curly braces after "return", not parenthesis.
+                visibility: !prevState.visibility
+            };
+        });
     }
 
 }
