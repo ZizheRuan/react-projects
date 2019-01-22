@@ -36,7 +36,9 @@ var IndecisionApp = function (_React$Component) {
     }, {
         key: 'handlePick',
         value: function handlePick() {
-            alert('test');
+            var randomNum = Math.floor(Math.random() * this.state.options.length); //0-1
+            var option = this.state.options[randomNum];
+            alert(option);
         }
     }, {
         key: 'render',
@@ -114,6 +116,7 @@ var Action = function (_React$Component3) {
                 React.createElement(
                     'button',
                     {
+                        //pass up to the Action Part in render(), then pass up to handlePick() function 
                         onClick: this.props.handlePick,
                         disabled: !this.props.hasOptions
                     },

@@ -17,7 +17,9 @@ class IndecisionApp extends React.Component {
     }
 
     handlePick() {
-        alert('test');
+        const randomNum = Math.floor(Math.random() * this.state.options.length); //0-1
+        const option = this.state.options [randomNum]
+        alert(option);
     }
 
     render() {
@@ -57,6 +59,7 @@ class IndecisionApp extends React.Component {
       return (
         <div>
           <button 
+                //pass up to the Action Part in render(), then pass up to handlePick() function 
                 onClick={this.props.handlePick}
                 disabled={!this.props.hasOptions}
             >
