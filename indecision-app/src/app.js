@@ -2,6 +2,7 @@ class IndecisionApp extends React.Component {
     constructor (props){
         super(props);
         this.handleDeleteOptions = this.handleDeleteOptions.bind(this);
+        this.handlePick = this.handlePick.bind(this);
         this.state = {
             options: ['Thing one', 'Thing two', 'Thing four']
         }
@@ -11,6 +12,14 @@ class IndecisionApp extends React.Component {
         this.setState(()=>{
             return{
                 options: []
+            }
+        })
+    }
+
+    handlePick() {
+        this.setState(()=>{
+            return{
+                
             }
         })
     }
@@ -45,13 +54,15 @@ class IndecisionApp extends React.Component {
   }
   
   class Action extends React.Component {
-    handlePick() {
-      alert('handlePick');
-    }
     render() {
       return (
         <div>
-          <button onClick={this.handlePick}>What should I do?</button>
+          <button 
+                onClick={this.handlePick}
+                disabled={!this.props.hasOptions}
+            >
+                What should I do?
+            </button>
         </div>
       );
     }
