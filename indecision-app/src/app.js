@@ -3,6 +3,7 @@ class IndecisionApp extends React.Component {
         super(props);
         this.handleDeleteOptions = this.handleDeleteOptions.bind(this);
         this.handlePick = this.handlePick.bind(this);
+        this.handleAddOption = this.handleAddOption.bind(this);
         this.state = {
             options: ['Thing one', 'Thing two', 'Thing four']
         }
@@ -22,6 +23,10 @@ class IndecisionApp extends React.Component {
         alert(option);
     }
 
+    handleAddOption(option) {
+        console.log(option);
+    }
+
     render() {
       const title = 'Indecision';
       const subtitle = 'Put your life in the hands of a computer';
@@ -37,7 +42,9 @@ class IndecisionApp extends React.Component {
             options={this.state.options}
             handleDeleteOptions={this.handleDeleteOption} 
           />
-          <AddOption />
+          <AddOption 
+            handleAddOption={this.handleAddOption}
+          />
         </div>
       );
     }
@@ -94,13 +101,17 @@ class Option extends React.Component{
 }
 
 class AddOption extends React.Component{
+    constructor(props) {
+        super(props);
+        this.handleAddOption = this.handleAddOption.bind(this);
+    }
     //function that handling submitted form need an attribute, to handle the attribute.
     handleAddOption(e) {
         e.preventDefault();
         //trim: remove all spaces before and after the value
         const option = e.target.elements.option.value.trim();
         if(option){
-            alert(option);
+            this.props.handleAddOption(option);
         }
 
     }
