@@ -4,6 +4,7 @@ import React from 'react';
 
 const DashboardPage = () => (
   <div>
+      Dashboard Page
     {/*<ExpenseListFilters />*/}
     {/*<ExpenseList />*/}
   </div>
