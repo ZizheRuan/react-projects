@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87d3816d-d14a-4f47-a118-30c5889650f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../indecision-app/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-before-test.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/public/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/public/images/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/actions/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/actions/expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/AddExpensePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/AddExpensePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/EditExpensePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/EditExpensePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseDashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseDashboardPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseListFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseListFilters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/HelpPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/reducers/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/reducers/expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/routers/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/routers/AppRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/store/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/store/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/base/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/base/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/actions/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/actions/expenses.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/AddExpensePage.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/AddExpensePage.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/EditExpensePage.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/EditExpensePage.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/Header.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/Header.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/AddExpensePage.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/AddExpensePage.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/EditExpensePage.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/EditExpensePage.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseDashboardPage.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseDashboardPage.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseForm.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseForm.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseList.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseList.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseListFilters.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseListFilters.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseListItem.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseListItem.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/Header.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/Header.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/reducers/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/reducers/expenses.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expendify-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="87d3816d-d14a-4f47-a118-30c5889650f0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/src/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/components/pc_newscontainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="864">
+              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -204,12 +165,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551133762863</updated>
-      <workItem from="1551133767572" duration="5334000" />
+      <workItem from="1551133767572" duration="6765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5334000" />
+    <option name="totallyTimeSpent" value="6765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
@@ -345,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/pc_newscontainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="864">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
