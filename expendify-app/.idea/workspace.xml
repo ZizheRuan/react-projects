@@ -2,9 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc3f582-b8ee-406f-8c28-e6edd0e70677" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-before-test.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/public/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/public/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/actions/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/actions/expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/AddExpensePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/AddExpensePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/EditExpensePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/EditExpensePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseDashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseDashboardPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseListFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseListFilters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/ExpenseListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/components/HelpPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/reducers/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/reducers/expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/routers/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/routers/AppRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/store/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/store/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/base/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/base/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/actions/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/actions/expenses.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/AddExpensePage.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/AddExpensePage.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/EditExpensePage.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/EditExpensePage.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/Header.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/Header.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/AddExpensePage.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/AddExpensePage.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/EditExpensePage.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/EditExpensePage.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseDashboardPage.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseDashboardPage.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseForm.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseForm.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseList.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseList.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseListFilters.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseListFilters.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseListItem.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/ExpenseListItem.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/Header.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/components/__snapshots__/Header.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/reducers/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/src/tests/reducers/expenses.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expendify-app-deploy/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../expendify-app-deploy/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/public/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,21 +50,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/r-15-09-heroku/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="36" />
+            <state relative-caret-position="184">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -59,6 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,7 +105,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -113,18 +137,18 @@
       <option name="presentableId" value="Default" />
       <updated>1549339733929</updated>
       <workItem from="1549339740079" duration="78000" />
-      <workItem from="1550659535542" duration="2020000" />
+      <workItem from="1550659535542" duration="2239000" />
+      <workItem from="1551069555692" duration="339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2704000" />
+    <option name="totallyTimeSpent" value="3262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21484992" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20431806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -148,17 +172,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/r-15-09-heroku/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/r-15-09-heroku/package.json" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state relative-caret-position="184">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
