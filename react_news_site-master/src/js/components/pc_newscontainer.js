@@ -46,6 +46,7 @@ export default class PcNewsContainer extends React.Component {
                                             <PcNewsBlock count={22} type="guoji" bordered="false" />
                                         </TabPane>
                         </Tabs>
+
                         <Tabs class="tabs_product">
                           <TabPane tab="ReactNews 链接" key="1">
                             <PcProduct/>
@@ -56,6 +57,7 @@ export default class PcNewsContainer extends React.Component {
                           <PcNewsImageBlock count={8} type="guonei" width="100%" cartTitle="国内新闻" imageWidth="132px"/>
                           <PcNewsImageBlock count={16} type="yule" width="100%" cartTitle="娱乐新闻" imageWidth="132px"/>
                         </div>
+
                      </Col>
 
 					 <Col span={2}></Col>
