@@ -74,8 +74,8 @@ class PcHeader extends React.Component{
     		<Col span={1}></Col>
     		<Col span={4}>
     			<Link to="/" className="logo">
-    				<img src="./src/images/logo.png" alt="logo"/>
-    				<span>ReactNews</span>
+    				<img src="./src/images/logo.jpg" alt="logo"/>
+    				<span>江湖传媒</span>
     			</Link>
     		</Col>
     		<Col span={18}>
