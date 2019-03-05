@@ -11,7 +11,7 @@ export default class PcFooter extends React.Component{
 				<Row>
 	    			<Col span={2}></Col>
 	    			<Col span={20} className="footer">
-						&copy;&nbsp;{year} ReactNews. Developed by Jianghu Media.
+						&copy;&nbsp;{year} Developed by Jianghu Media.
 	    			</Col>
 	      			<Col span={2}></Col>
 	  			</Row>

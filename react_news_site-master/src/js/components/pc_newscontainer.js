@@ -48,7 +48,7 @@ export default class PcNewsContainer extends React.Component {
                         </Tabs>
 
                         <Tabs class="tabs_product">
-                          <TabPane tab="ReactNews 链接" key="1">
+                          <TabPane tab="江湖 广告 链接" key="1">
                             <PcProduct/>
                           </TabPane>
                         </Tabs>
