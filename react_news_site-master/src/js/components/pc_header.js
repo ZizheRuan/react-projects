@@ -43,6 +43,8 @@ class PcHeader extends React.Component{
 			method: 'GET'
 		};
 
+		
+
 		this.props.form.validateFields((err, values) => {
     	// console.log(values.username);
     	// console.log(values.password);
