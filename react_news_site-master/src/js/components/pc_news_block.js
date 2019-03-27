@@ -14,15 +14,23 @@ export default class PcNewsBlock extends React.Component {
 			method: 'GET'	
 		};
 
-		fetch("http://newsapi.gugujiankong.com/Handler.ashx?action=getnews&type=" + this.props.type + "&count=" + this.props.count, myFetchOptions)
-		.then(response => response.json())
-		.then(json => this.setState({news: json}));
+		// fetch("http://newsapi.gugujiankong.com/Handler.ashx?action=getnews&type=" + this.props.type + "&count=" + this.props.count, myFetchOptions)
+		// .then(response => response.json())
+		// .then(json => this.setState({news: json}));
+
+		fetch("http://app.meljianghu.com/api/activity/get_by_cate/67/1/1@2@3@4@5@6")
+			.then(response => response.json())
+			.then(json => this.setState({news: json}));
 
 	}
 
 	render(){
 		const {news} = this.state;
-		// console.log(news);
+		console.log(typeof news);
+		const stringOfNews=news.toString();
+		console.log(stringOfNews);
+		console.log(news);
+		console.log("sdfdfsdfsfdsfsdf");
 		const newsList = news.length
 			? news.map((newsItem, index) => (
 				<li key={index}>
