@@ -27485,7 +27485,7 @@
 							_react2.default.createElement(
 								'span',
 								null,
-								'ReactNews'
+								'江湖'
 							)
 						)
 					),
@@ -49003,7 +49003,7 @@
 							{ span: 20, className: 'footer' },
 							'\xA9\xA0',
 							year,
-							' ReactNews. Developed by cjxmg.'
+							' 江湖. Developed by Jianghu Media.'
 						),
 						_react2.default.createElement(_col2.default, { span: 2 })
 					)
@@ -49163,7 +49163,7 @@
 	              { 'class': 'tabs_product' },
 	              _react2.default.createElement(
 	                TabPane,
-	                { tab: 'ReactNews \u94FE\u63A5', key: '1' },
+	                { tab: '江湖 \u94FE\u63A5', key: '1' },
 	                _react2.default.createElement(_pc_products2.default, null)
 	              )
 	            ),
@@ -53411,7 +53411,7 @@
 						_react2.default.createElement(
 							'span',
 							null,
-							'ReactNews'
+							'江湖'
 						),
 						_react2.default.createElement(_icon2.default, { type: 'setting', onClick: function onClick() {
 								return _this2.setModalVisible(true);
@@ -53561,7 +53561,7 @@
 							{ span: 20, className: 'footer' },
 							'\xA9\xA0',
 							year,
-							' ReactNews. Developed by cjxmg.'
+							' 江湖 Developed by Ruan.'
 						),
 						_react2.default.createElement(_col2.default, { span: 2 })
 					)
