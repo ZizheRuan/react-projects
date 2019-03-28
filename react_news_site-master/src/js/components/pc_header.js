@@ -83,35 +83,32 @@ class PcHeader extends React.Component{
     		<Col span={18}>
 					<Menu mode="horizontal" onClick={this.navActive.bind(this)} selectedKeys={[this.state.current]}>
 				  	<Menu.Item key="top">
-				  		<Icon type="appstore"/>头条
-				  	</Menu.Item>
-				  	<Menu.Item key="news">
-				  		<Icon type="exception" />新闻
-				  	</Menu.Item>
-				  	<Menu.Item key="caijing">
-				  		<Icon type="red-envelope" />财经
+				  		<Icon type="appstore"/>推荐
 				  	</Menu.Item>
 				  	<Menu.Item key="yule">
-				  		<Icon type="coffee" />娱乐
+				  		<Icon type="coffee" />美食
 				  	</Menu.Item>
-				  	<Menu.Item key="junshi">
-				  		<Icon type="flag" />军事
-				  	</Menu.Item>
-				  	<Menu.Item key="education">
-				  		<Icon type="team" />教育
+					<Menu.Item key="jiankang">
+						<Icon type="heart" />休闲
+					</Menu.Item>
+					<Menu.Item key="women">
+						<Icon type="shopping" />时尚
+					</Menu.Item>
+					<Menu.Item key="education">
+				  		<Icon type="team" />校园
 				  	</Menu.Item>
 				  	<Menu.Item key="keji">
-				  		<Icon type="rocket" />科技
+				  		<Icon type="rocket" />游戏
 				  	</Menu.Item>
 				  	<Menu.Item key="NBA">
-				  		<Icon type="global" />NBA
+				  		<Icon type="global" />旅游
 				  	</Menu.Item>
-				  	<Menu.Item key="women">
-				  		<Icon type="heart" />女性
-				  	</Menu.Item>
-				  	<Menu.Item key="jiankang">
-				  		<Icon type="disconnect" />健康
-				  	</Menu.Item>
+					<Menu.Item key="junshi">
+						<Icon type="bank" />房产
+					</Menu.Item>
+					<Menu.Item key="caijing">
+						<Icon type="dollar" />财经
+					</Menu.Item>
 						<Menu.Item key="register" className="register">
 							<Button type="primary">
 								<Icon type="user-add" />登录/注册
