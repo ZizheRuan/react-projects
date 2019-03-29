@@ -35,15 +35,15 @@ export default class PcNewsContainer extends React.Component {
                               <div><img src="./src/images/carousel_4.png"/></div>
                             </Carousel>
                           </div>
-                          <PcNewsImageBlock count={6} type="guoji" width="400px" cartTitle="精选活动" imageWidth="112px"/>
+                          <PcNewsImageBlock count={6} cate="46" width="400px" cartTitle="精选活动" imageWidth="112px"/>
                         </div>
 
                         <Tabs className="tabs_news">
                                         <TabPane tab="为您推荐" key="1">
-                                            <PcNewsBlock count={22} type="top" bordered="false" />
+                                            <PcNewsBlock count={22} cate="46" bordered="false" />
                                         </TabPane>
                                         <TabPane tab="种草专区" key="2">
-                                            <PcNewsBlock count={22} type="guoji" bordered="false" />
+                                            <PcNewsBlock count={22} cate="46" bordered="false" />
                                         </TabPane>
                         </Tabs>
 
@@ -54,8 +54,8 @@ export default class PcNewsContainer extends React.Component {
                         </Tabs>
 
                         <div>
-                          <PcNewsImageBlock count={8} cate="46" width="100%" cartTitle="当季最热活动" imageWidth="132px"/>
-                          <PcNewsImageBlock count={8} cate="46" width="100%" cartTitle="活跃社团" imageWidth="132px"/>
+                          <PcNewsImageBlock count={8} cate="46" count={8} width="100%" cartTitle="当季最热活动" imageWidth="132px"/>
+                          <PcNewsImageBlock count={8} cate="46" count={8} width="100%" cartTitle="活跃社团" imageWidth="132px"/>
                         </div>
 
                      </Col>

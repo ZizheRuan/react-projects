@@ -19,7 +19,7 @@ export default class PcNewsDetails extends React.Component {
 			method: 'GET'
 		};
 
-		fetch("http://app.meljianghu.com/api/activity/get_by_cate/16/1/1@2@3@4@5@6", myFetchOptions)
+		fetch("http://app.meljianghu.com/api/activity/get_by_cate/46/1/1@2@3@4@5@6", myFetchOptions)
 			.then(response => response.json())
 			.then(json => {
 				for (let item of json){

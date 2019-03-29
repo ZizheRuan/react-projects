@@ -18,9 +18,21 @@ export default class PcNewsBlock extends React.Component {
 		// .then(response => response.json())
 		// .then(json => this.setState({news: json}));
 
-		fetch("http://app.meljianghu.com/api/activity/get_by_cate/16/1/1@2@3@4@5@6")
+		fetch("http://app.meljianghu.com/api/activity/get_by_cate/"+this.props.cate+"/1/1@2@3@4@5@6", myFetchOptions)
 			.then(response => response.json())
-			.then(json => this.setState({news: json}));
+			.then(json => {
+				var count = 0;
+				for (let item of json){
+					item.img_url_top = item.img_url_top.replace('\\','').replace("/home/meljianghu","http:/");
+					item.img_url_bottom = item.img_url_bottom.replace('\\','').replace("/home/meljianghu","http:/");
+					count += 1;
+					if (count >= this.props.count){
+						break;
+					}
+				}
+				json = json.slice(0,this.props.count);
+				this.setState({news: json})
+			});
 	}
 
 	render(){

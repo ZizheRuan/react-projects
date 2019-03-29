@@ -18,16 +18,14 @@ export default class PCNewsImageBlock extends React.Component {
 			.then(json => {
 				var count = 0;
 				for (let item of json){
-					console.log(typeof item);
-					console.log(item.img_url_top);
 					item.img_url_top = item.img_url_top.replace('\\','').replace("/home/meljianghu","http:/");
-					console.log(item.img_url_top);
+					item.img_url_bottom = item.img_url_bottom.replace('\\','').replace("/home/meljianghu","http:/");
 					count += 1;
-					if (count >= 8){
+					if (count >= this.props.count){
 						break;
 					}
 				}
-				json = json.slice(0,8);
+				json = json.slice(0,this.props.count);
 				this.setState({news: json})
 			});
 	};
