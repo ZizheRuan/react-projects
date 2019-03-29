@@ -77,7 +77,7 @@ class PcHeader extends React.Component{
     		<Col span={4}>
     			<Link to="/" className="logo">
     				<img src="./src/images/logo.jpg" alt="logo"/>
-    				<span>江湖传媒</span>
+    				<span>江湖</span>
     			</Link>
     		</Col>
     		<Col span={18}>
@@ -107,7 +107,7 @@ class PcHeader extends React.Component{
 						<Icon type="bank" />房产
 					</Menu.Item>
 					<Menu.Item key="caijing">
-						<Icon type="dollar" />财经
+						<Icon type="euro" />财经
 					</Menu.Item>
 						<Menu.Item key="register" className="register">
 							<Button type="primary">
@@ -120,47 +120,40 @@ class PcHeader extends React.Component{
 	          	<Tabs type="card">
 								<TabPane tab="登录" key="1">
 									<Form onSubmit={this.handleSubmit.bind(this)}>
-
 										<Form.Item label="账户" validateStatus={usernameError ? 'error' : ''} help={usernameError || ''}>
 											{getFieldDecorator('username', {
-            						rules: [{ required: true, message: '请输入用户名'}],
-          						})(
-            					<Input prefix={<Icon type="user"/>} placeholder="请输入您的账号"/>
-          						)}
+												rules: [{ required: true, message: '请输入用户名'}],
+											})(
+												<Input prefix={<Icon type="user"/>} placeholder="请输入您的账号"/>
+											)}
 										</Form.Item>
-
 										<Form.Item label="密码" validateStatus={passwordError ? 'error' : ''} help={passwordError || ''}>
 											{getFieldDecorator('password', {
-            						rules: [{ required: true, message: '请输入密码' }],
-          						})(
-            					<Input prefix={<Icon type="lock"/>} type="password" placeholder="请输入您的密码"/>
-          						)}
-
+            									rules: [{ required: true, message: '请输入密码' }],
+          									})(
+												<Input prefix={<Icon type="lock"/>} type="password" placeholder="请输入您的密码"/>
+											)}
 										</Form.Item>
-
 										<Button type="primary" htmlType="submit" disabled={hasErrors(getFieldsError(['username', 'password']))}>登录</Button>
 									</Form>
 								</TabPane>
+
 								<TabPane tab="注册" key="2">
 									<Form onSubmit={this.handleSubmit.bind(this)}>
-
-										<Form.Item label="账户" validateStatus={r_usernameError ? 'error' : ''} help={r_usernameError || ''}>
-											{getFieldDecorator('r_username', {
-            						rules: [{ required: true, message: '请输入用户名' }],
-          						})(
-            					<Input prefix={<Icon type="user"/>} placeholder="请输入您的账号"/>
-          						)}
+										<Form.Item label="账户" validateStatus={usernameError ? 'error' : ''} help={usernameError || ''}>
+											{getFieldDecorator('username', {
+												rules: [{ required: true, message: '请输入用户名'}],
+											})(
+												<Input prefix={<Icon type="user"/>} placeholder="请输入您的账号"/>
+											)}
 										</Form.Item>
-
-										<Form.Item label="密码" validateStatus={r_passwordError ? 'error' : ''} help={r_passwordError || ''}>
-											{getFieldDecorator('r_password', {
-            						rules: [{ required: true, message: '请输入密码' }],
-          						})(
-            					<Input prefix={<Icon type="user"/>} type="password" placeholder="请输入您的密码" />
-          						)}
-
+										<Form.Item label="密码" validateStatus={passwordError ? 'error' : ''} help={passwordError || ''}>
+											{getFieldDecorator('password', {
+												rules: [{ required: true, message: '请输入密码' }],
+											})(
+												<Input prefix={<Icon type="lock"/>} type="password" placeholder="请输入您的密码"/>
+											)}
 										</Form.Item>
-
 										<Button type="primary" htmlType="submit" disabled={hasErrors(getFieldsError(['r_username', 'r_password']))}>注册</Button>
 									</Form>
 								</TabPane>

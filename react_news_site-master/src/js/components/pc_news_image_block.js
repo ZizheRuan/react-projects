@@ -13,7 +13,7 @@ export default class PCNewsImageBlock extends React.Component {
 			method: 'GET'
 		};
 		// fetch("http://newsapi.gugujiankong.com/Handler.ashx?action=getnews&type=" + this.props.type + "&count=" + this.props.count, myFetchOptions)
-		fetch("http://app.meljianghu.com/api/activity/get_by_cate/"+this.props.cate+"/1/1@2@3@4@5@6", myFetchOptions)
+		fetch("http://app.meljianghu.com/api/"+this.props.type+this.props.cate+"/1/1@2@3@4@5@6", myFetchOptions)
 			.then(response => response.json())
 			.then(json => {
 				var count = 0;

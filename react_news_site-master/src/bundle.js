@@ -27485,7 +27485,7 @@
 							_react2.default.createElement(
 								'span',
 								null,
-								'江湖'
+								'江湖 | 澳洲最大的华人兴趣活动平台'
 							)
 						)
 					),
@@ -49163,7 +49163,7 @@
 	              { 'class': 'tabs_product' },
 	              _react2.default.createElement(
 	                TabPane,
-	                { tab: '江湖 \u94FE\u63A5', key: '1' },
+	                { tab: '江湖 | 澳洲最大的华人兴趣活动平台 \u94FE\u63A5', key: '1' },
 	                _react2.default.createElement(_pc_products2.default, null)
 	              )
 	            ),
@@ -53411,7 +53411,7 @@
 						_react2.default.createElement(
 							'span',
 							null,
-							'江湖'
+							'江湖 | 澳洲最大的华人兴趣活动平台'
 						),
 						_react2.default.createElement(_icon2.default, { type: 'setting', onClick: function onClick() {
 								return _this2.setModalVisible(true);
