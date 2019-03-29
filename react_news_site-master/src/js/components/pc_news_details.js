@@ -18,14 +18,20 @@ export default class PcNewsDetails extends React.Component {
 			method: 'GET'
 		};
 		// fetch("http://newsapi.gugujiankong.com/Handler.ashx?action=getnewsitem&uniquekey=" + this.props.params.uniquekey, myFetchOptions)
-		fetch("http://app.meljianghu.com/api/activity/get_by_cate/67/1/1@2@3@4@5@6", myFetchOptions)
+		fetch("http://app.meljianghu.com/api/activity/get_by_cate/16/1/1@2@3@4@5@6", myFetchOptions)
 		.then(response => response.json())
 		.then(json => {
+
+		// 	json.map((jsonItem,index) => (
+		// 	if (jsonItem.id == this.props.params.id){
+		// 		console.log("zhaodaola!!!")
+		// 	}
+		// ))
 			this.setState({newsItem: json[2]});
 			this.setState({imageBottom: this.state.newsItem.img_url_bottom.replace('\\','').replace("/home/meljianghu","http:/")});
 			document.title = this.state.newsItem.title + " | 江湖活动平台";
 		})
-
+		// console.log("key = "+this.props.params.key)
 	}
 
 	//将请求到的html结构放入div里
@@ -47,7 +53,7 @@ export default class PcNewsDetails extends React.Component {
 						<p id="price">{`$${this.state.newsItem.unit_price}`}</p>
 						<p id={"address"}>{`${this.state.newsItem.address}`}</p>
 						<p id={"time"}>{`${this.state.newsItem.start_time} - ${this.state.newsItem.end_time}`}</p>
-						<p id={"detail"}>{`活动详情：${this.state.newsItem.des}`}</p>
+						<p id={"detail"}>{`活动详情：${this.state.newsItem.content}`}</p>
 						<img className="responsive-picture" src={this.state.imageBottom} alt={this.state.group_logo_url} />
 						{/*<div>{this.state.imageBottom}</div>*/}
 					</Col>
