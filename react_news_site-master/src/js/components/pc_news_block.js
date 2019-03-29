@@ -21,13 +21,6 @@ export default class PcNewsBlock extends React.Component {
 		fetch("http://app.meljianghu.com/api/activity/get_by_cate/16/1/1@2@3@4@5@6")
 			.then(response => response.json())
 			.then(json => this.setState({news: json}));
-
-		// const {news} = this.state;
-		// const newsList = news.length
-		// 	? news.map((newsItem, index) => (
-		// 		newsItem['key'] = "1"
-		// 	))
-		// 	: '没有加载到任何新闻';
 	}
 
 	render(){

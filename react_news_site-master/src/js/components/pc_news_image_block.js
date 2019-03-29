@@ -12,9 +12,24 @@ export default class PCNewsImageBlock extends React.Component {
 		var myFetchOptions = {
 			method: 'GET'
 		};
-		fetch("http://newsapi.gugujiankong.com/Handler.ashx?action=getnews&type=" + this.props.type + "&count=" + this.props.count, myFetchOptions)
+		// fetch("http://newsapi.gugujiankong.com/Handler.ashx?action=getnews&type=" + this.props.type + "&count=" + this.props.count, myFetchOptions)
+		fetch("http://app.meljianghu.com/api/activity/get_by_cate/"+this.props.cate+"/1/1@2@3@4@5@6", myFetchOptions)
 			.then(response => response.json())
-			.then(json => this.setState({news: json}));
+			.then(json => {
+				var count = 0;
+				for (let item of json){
+					console.log(typeof item);
+					console.log(item.img_url_top);
+					item.img_url_top = item.img_url_top.replace('\\','').replace("/home/meljianghu","http:/");
+					console.log(item.img_url_top);
+					count += 1;
+					if (count >= 8){
+						break;
+					}
+				}
+				json = json.slice(0,8);
+				this.setState({news: json})
+			});
 	};
 	render() {
 		const styleImage = {
@@ -32,18 +47,18 @@ export default class PCNewsImageBlock extends React.Component {
 		const newsList = news.length
 			? news.map((newsItem, index) => (
 				<div key={index} className="imageblock">
-					<Link to={`details/${newsItem.uniquekey}`} target="_blank">
+					<Link to={`details/${newsItem.id}`} target="_blank">
 						<div className="custom-image">
-							<img alt="" style={styleImage} src={newsItem.thumbnail_pic_s}/>
+							<img alt={newsItem.group_logo_url} style={styleImage} src={newsItem.img_url_top}/>
 						</div>
 						<div className="custom-card">
 							<h3 style={styeH3}>{newsItem.title}</h3>
-							<p>{newsItem.author_name}</p>
+							<p>{newsItem.user_name}</p>
 						</div>
 					</Link>
 				</div>
 			))
-			: '没有加载到任何新闻';
+			: '没有加载到任何活动';
 		return (
 			<div className="topNewsList">
 				<Card title={this.props.cartTitle} bordered={true} style={{
