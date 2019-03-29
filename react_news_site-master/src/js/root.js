@@ -14,13 +14,13 @@ export default class Root extends React.Component{
     		<MediaQuery query='(min-device-width: 1224px)'>
     			<Router history={hashHistory}>
     				<Route path="/" component={PcIndex}></Route>
-						<Route path="/details/:uniquekey" component={PcNewsDetails}></Route>
+						<Route path="/details/:id" component={PcNewsDetails}></Route>
     			</Router>
 				</MediaQuery>  
 				<MediaQuery query='(max-device-width: 1224px)'>
 					<Router history={hashHistory}>
     				<Route path="/" component={MobileIndex}></Route>
-						<Route path="/details/:uniquekey" component={MobileDetails}></Route>
+						<Route path="/details/:id" component={MobileDetails}></Route>
     			</Router>
 				</MediaQuery>
   		</div> 

@@ -18,21 +18,64 @@ export default class PcNewsDetails extends React.Component {
 			method: 'GET'
 		};
 		// fetch("http://newsapi.gugujiankong.com/Handler.ashx?action=getnewsitem&uniquekey=" + this.props.params.uniquekey, myFetchOptions)
-		fetch("http://app.meljianghu.com/api/activity/get_by_cate/16/1/1@2@3@4@5@6", myFetchOptions)
-		.then(response => response.json())
-		.then(json => {
 
-		// 	json.map((jsonItem,index) => (
-		// 	if (jsonItem.id == this.props.params.id){
-		// 		console.log("zhaodaola!!!")
-		// 	}
-		// ))
-			this.setState({newsItem: json[2]});
-			this.setState({imageBottom: this.state.newsItem.img_url_bottom.replace('\\','').replace("/home/meljianghu","http:/")});
-			document.title = this.state.newsItem.title + " | 江湖活动平台";
-		})
-		// console.log("key = "+this.props.params.key)
+		var cun = [];
+		var indexFound = "";
+		fetch("http://app.meljianghu.com/api/activity/get_by_cate/16/1/1@2@3@4@5@6", myFetchOptions)
+			.then(response => response.json())
+			.then(json => {
+				console.log(JSON.stringify(json[2]));
+				console.log(this.props.params.id);
+
+				if (json[2].id=="1408"){
+					console.log("yes");
+					console.log(typeof (json));
+					console.log(this.props.params.id);
+					console.log(length.json);
+				}
+				for (let item of json){
+					if (item.id == this.props.params.id){
+						console.log(item);
+						console.log(item.id);
+						this.setState({newsItem: item});
+						this.setState({imageBottom: this.state.newsItem.img_url_bottom.replace('\\','').replace("/home/meljianghu","http:/")});
+						document.title = this.state.newsItem.title + " | 江湖活动平台";
+					}
+				}
+
+				// this.setState({newsItem: found});
+				// this.setState({imageBottom: this.state.newsItem.img_url_bottom.replace('\\','').replace("/home/meljianghu","http:/")});
+				// document.title = this.state.newsItem.title + " | 江湖活动平台";
+			})
+
+		// fetch("http://app.meljianghu.com/api/activity/get_by_cate/16/1/1@2@3@4@5@6", myFetchOptions)
+		// .then(response => response.json())
+		// .then(json => {
+		// 	this.setState({newsItem: json[2]});
+		// 	this.setState({imageBottom: this.state.newsItem.img_url_bottom.replace('\\','').replace("/home/meljianghu","http:/")});
+		// 	document.title = this.state.newsItem.title + " | 江湖活动平台";
+		// })
+
+
 	}
+
+	myFunction(value){
+		console.log(value);
+		console.log("value.id="+value[0]);
+		console.log(this.props.params.id);
+		return value.id.toString()==this.props.params.id.toString();
+	}
+
+	findItem(cun) {
+		cun.map((cunItem,index)=>{
+			console.log(this.props.params.id);
+			console.log(index)
+			if (cunItem.id == this.props.params.id){
+				return index
+			}
+		});
+	}
+
 
 	//将请求到的html结构放入div里
 	createMarkup() {
