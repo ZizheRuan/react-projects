@@ -40,16 +40,16 @@ export default class PcNewsDetails extends React.Component {
 				<PcIndex/>
 				<Row>
 					<Col span={2}></Col>
-					<Col span={14} className="container">
+					<Col span={14} className="detail-page">
 						{/*<div className="articleContainer" dangerouslySetInnerHTML={this.createMarkup()}></div>*/}
-						<div>{this.state.newsItem.title}</div>
-						<div>{`浏览${this.state.newsItem.count_views_real}次`}</div>
-						<div>{`$${this.state.newsItem.unit_price}`}</div>
-						<div>{`${this.state.newsItem.address}`}</div>
-						<div>{`${this.state.newsItem.start_time} - ${this.state.newsItem.end_time}`}</div>
-						<div>{`详情：${this.state.newsItem.des}`}</div>
-						<img src={this.state.imageBottom} alt={this.state.group_logo_url} />
-						<div>{this.state.imageBottom}</div>
+						<h1>{this.state.newsItem.title}</h1>
+						<p id={"view-count"}>{`浏览${this.state.newsItem.count_views_real}次`}</p>
+						<p id="price">{`$${this.state.newsItem.unit_price}`}</p>
+						<p id={"address"}>{`${this.state.newsItem.address}`}</p>
+						<p id={"time"}>{`${this.state.newsItem.start_time} - ${this.state.newsItem.end_time}`}</p>
+						<p id={"detail"}>{`活动详情：${this.state.newsItem.des}`}</p>
+						<img className="responsive-picture" src={this.state.imageBottom} alt={this.state.group_logo_url} />
+						{/*<div>{this.state.imageBottom}</div>*/}
 					</Col>
 					<Col span={6}>
 						<PcNewsImageBlock count={20} type="top" width="100%" cardTitle="相关新闻" imageWidth="140px" />
