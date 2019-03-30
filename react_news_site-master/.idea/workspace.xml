@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87d3816d-d14a-4f47-a118-30c5889650f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../react-basic-authentication-example-master/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-basic-authentication-example-master/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-basic-authentication-example-master/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-basic-authentication-example-master/.idea/react-basic-authentication-example-master.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-basic-authentication-example-master/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-basic-authentication-example-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-basic-authentication-example-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-basic-authentication-example-master/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/pc_news_image_block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/pc_news_image_block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/pc_newscontainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/pc_newscontainer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/src/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/pc_news_details.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
+            <state relative-caret-position="989">
               <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -34,10 +31,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/pc_header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1014">
+            <state relative-caret-position="3427">
               <caret line="151" column="91" selection-start-line="151" selection-start-column="91" selection-end-line="151" selection-end-column="91" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -49,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/pc_news_block.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
+            <state relative-caret-position="460">
               <caret line="20" column="99" selection-start-line="20" selection-start-column="99" selection-end-line="20" selection-end-column="99" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -61,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/pc_news_image_block.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-142">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="-274">
+              <caret line="134" column="10" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="10" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -70,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/pc.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="418" column="22" selection-start-line="418" selection-start-column="22" selection-end-line="418" selection-end-column="22" />
+            <state relative-caret-position="6966">
+              <caret line="436" column="1" lean-forward="true" selection-start-line="436" selection-start-column="1" selection-end-line="436" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -82,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/pc_newscontainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+            <state relative-caret-position="124">
+              <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -92,6 +89,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -135,11 +139,13 @@
         <option value="$PROJECT_DIR$/src/js/root.js" />
         <option value="$PROJECT_DIR$/src/css/pc.css" />
         <option value="$PROJECT_DIR$/src/js/components/pc_news_details.js" />
-        <option value="$PROJECT_DIR$/src/js/components/pc_news_block.js" />
         <option value="$PROJECT_DIR$/src/bundle.js" />
-        <option value="$PROJECT_DIR$/src/js/components/pc_news_image_block.js" />
-        <option value="$PROJECT_DIR$/src/js/components/pc_newscontainer.js" />
         <option value="$PROJECT_DIR$/src/js/components/pc_header.js" />
+        <option value="$PROJECT_DIR$/src/js/components/auth_header.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pc_newscontainer.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pc_news_block.js" />
+        <option value="$PROJECT_DIR$/src/js/components/private_route.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pc_news_image_block.js" />
       </list>
     </option>
   </component>
@@ -239,12 +245,13 @@
       <workItem from="1553041067873" duration="2876000" />
       <workItem from="1553047200640" duration="12395000" />
       <workItem from="1553748343740" duration="5553000" />
-      <workItem from="1553814910856" duration="33196000" />
+      <workItem from="1553814910856" duration="39300000" />
+      <workItem from="1553922148357" duration="12268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91708000" />
+    <option name="totallyTimeSpent" value="110080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,7 +266,7 @@
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.15007898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.15007898" />
       <window_info id="Structure" order="1" sideWeight="0.50183153" side_tool="true" weight="0.20084566" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -273,7 +280,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32923833" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" weight="0.3034398" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.24647887" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.24647887" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -350,9 +357,7 @@
     <entry file="file://$PROJECT_DIR$/src/images/carousel_1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/carousel_2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/carousel_2.jpg" />
     <entry file="file://$PROJECT_DIR$/src/images/carousel_3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -362,20 +367,11 @@
     <entry file="file://$PROJECT_DIR$/src/images/logo_news.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/carousel_4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/carousel_4.jpg" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/pc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="418" column="22" selection-start-line="418" selection-start-column="22" selection-end-line="418" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -416,36 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/pc_news_block.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="20" column="99" selection-start-line="20" selection-start-column="99" selection-end-line="20" selection-end-column="99" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/pc_news_details.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/pc_newscontainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/pc_index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -456,10 +422,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/pc_news_image_block.js">
+    <entry file="file://$PROJECT_DIR$/src/js/components/pc_news_details.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="989">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -468,11 +434,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/pc_header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
+        <state relative-caret-position="3427">
           <caret line="151" column="91" selection-start-line="151" selection-start-column="91" selection-end-line="151" selection-end-column="91" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pc_news_block.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="99" selection-start-line="20" selection-start-column="99" selection-end-line="20" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/private_route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/auth_header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pc_newscontainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pc_news_image_block.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="134" column="10" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/pc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6966">
+          <caret line="436" column="1" lean-forward="true" selection-start-line="436" selection-start-column="1" selection-end-line="436" selection-end-column="1" />
         </state>
       </provider>
     </entry>
