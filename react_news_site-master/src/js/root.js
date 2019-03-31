@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, hashHistory} from 'react-router';
+import {Router, Route, HashRouter} from 'react-router-dom';
 import PcIndex from './components/pc_index';
 import MobileIndex from './components/mobile_index'; 
 import MediaQuery from 'react-responsive';
@@ -12,17 +12,18 @@ export default class Root extends React.Component{
 		return ( 
 			<div>   
     		<MediaQuery query='(min-device-width: 1224px)'>
-    			<Router history={hashHistory}>
-    				<Route path="/" component={PcIndex}></Route>
+    			<HashRouter>
+    					<Route exact path="/" component={PcIndex}></Route>
 						<Route path="/details/:id" component={PcNewsDetails}></Route>
-    			</Router>
-				</MediaQuery>  
-				<MediaQuery query='(max-device-width: 1224px)'>
-					<Router history={hashHistory}>
-    				<Route path="/" component={MobileIndex}></Route>
-						<Route path="/details/:id" component={MobileDetails}></Route>
-    			</Router>
-				</MediaQuery>
+				</HashRouter>
+    		</MediaQuery>
+
+			<MediaQuery query='(max-device-width: 1224px)'>
+				<HashRouter>
+					<Route exact path="/" component={MobileIndex}></Route>
+					<Route path="/details/:id" component={MobileDetails}></Route>
+				</HashRouter>
+			</MediaQuery>
   		</div> 
 		) 
 	}

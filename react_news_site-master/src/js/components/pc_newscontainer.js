@@ -54,8 +54,8 @@ export default class PcNewsContainer extends React.Component {
                         </Tabs>
 
                         <div>
-                          {/*<PcNewsImageBlock count={8} type="activity/get_by_cate" cate="/46" count={8} width="100%" cartTitle="当季最热活动" imageWidth="132px"/>*/}
-                          {/*<PcNewsImageBlock count={8} type="activity/get_by_cate" cate="/46" count={8} width="100%" cartTitle="活跃社团" imageWidth="132px"/>*/}
+                          <PcNewsImageBlock count={8} type="activity/get_by_cate" cate="/46" count={8} width="100%" cartTitle="当季最热活动" imageWidth="132px"/>
+                          <PcNewsImageBlock count={8} type="activity/get_by_cate" cate="/46" count={8} width="100%" cartTitle="活跃社团" imageWidth="132px"/>
                         </div>
 
                      </Col>

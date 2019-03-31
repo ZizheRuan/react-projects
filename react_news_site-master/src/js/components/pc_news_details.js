@@ -3,6 +3,7 @@ import {Row, Col, BackTop} from 'antd';
 import PcIndex from './pc_header';
 import PcFooter from './pc_footer';
 import PcNewsImageBlock from './pc_news_image_block';
+import PcNewsBlock from './pc_news_block';
 
 export default class PcNewsDetails extends React.Component {
 	constructor(){
@@ -18,12 +19,13 @@ export default class PcNewsDetails extends React.Component {
 		var myFetchOptions = {
 			method: 'GET'
 		};
-
+		const {id} = this.props.match.params;
+		console.log("打开内容：ID="+id)
 		fetch("http://app.meljianghu.com/api/activity/get_by_cate/46/1/1@2@3@4@5@6", myFetchOptions)
 			.then(response => response.json())
 			.then(json => {
 				for (let item of json){
-					if (item.id == this.props.params.id){
+					if (item.id == id){
 						this.setState({newsItem: item});
 						this.setState({imageBottom: this.state.newsItem.img_url_bottom.replace('\\','').replace("/home/meljianghu","http:/")});
 						this.setState({imageTop: this.state.newsItem.img_url_top.replace('\\','').replace("/home/meljianghu","http:/")});
@@ -58,7 +60,7 @@ export default class PcNewsDetails extends React.Component {
 						<img className="responsive-picture" src={this.state.imageBottom} alt={this.state.group_logo_url} />
 					</Col>
 					<Col span={6}>
-						<PcNewsImageBlock count={20} type="top" width="100%" cardTitle="相关活动" imageWidth="140px" />
+						{/*<PcNewsImageBlock count={20} type="top" width="100%" cardTitle="相关活动" imageWidth="140px" />*/}
 					</Col>
 					<Col span={2}></Col>
 				</Row>

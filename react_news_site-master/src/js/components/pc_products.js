@@ -3,8 +3,10 @@ import React from 'react';
 export default class PcProduct extends React.Component{
   render(){
     return(
+        <div>llalla</div>
+        /*
       <div className="area-sub" style={{overflow: 'visible'}}>
-          {/* product.html start */}
+
           <div id="layout-product" className="m-box ui-style-gradient mb12">
             <div id="js_changeView" className="box-bd clearfix" data-module-name="n_product">
               <div className="productlinks clearfix" style={{overflow: 'visible'}}>
@@ -44,6 +46,7 @@ export default class PcProduct extends React.Component{
             </div>
           </div>
         </div>
+*/
     );
   };
 }

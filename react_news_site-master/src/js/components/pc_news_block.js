@@ -1,6 +1,8 @@
 import React from 'react';
 import {Card} from 'antd';
-import {Router, Route, Link, browserHistory} from 'react-router';
+import {Link} from 'react-router-dom';
+// import PcNewsDetails from './pc_news_details';
+
 export default class PcNewsBlock extends React.Component {
 	constructor() {
 		super();
@@ -13,10 +15,6 @@ export default class PcNewsBlock extends React.Component {
 		var myFetchOptions = {
 			method: 'GET'	
 		};
-
-		// fetch("http://newsapi.gugujiankong.com/Handler.ashx?action=getnews&type=" + this.props.type + "&count=" + this.props.count, myFetchOptions)
-		// .then(response => response.json())
-		// .then(json => this.setState({news: json}));
 
 		fetch("http://app.meljianghu.com/api/activity/get_by_cate/"+this.props.cate+"/1/1@2@3@4@5@6", myFetchOptions)
 			.then(response => response.json())
@@ -37,10 +35,11 @@ export default class PcNewsBlock extends React.Component {
 
 	render(){
 		const {news} = this.state;
+
 		const newsList = news.length
 			? news.map((newsItem, index) => (
 				<li key={index}>
-					<Link to={`details/${newsItem.id}`} target="_blank">
+					<Link to={`/details/${newsItem.id}`} target="_blank">
 						{newsItem.title}
 					</Link>
 				</li>
@@ -53,7 +52,7 @@ export default class PcNewsBlock extends React.Component {
 					<ul>
 						{newsList}
 					</ul>
-				</Card>	
+				</Card>
 			</div>
 		)
 	}
